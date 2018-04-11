@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections.Generic;
+using ZooProject.Animals;
 
 namespace ZooProject
 {
@@ -6,7 +8,22 @@ namespace ZooProject
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
-        }
-    }
+            
+            Zoo zoo = new Zoo();
+            zoo.PopulateZoo();
+            zoo.PrintInfo();
+            zoo.FeedingTime();
+            Console.ReadLine();
+        }       
+    }    
+
+    
+
+    
+
+    
+
+    
+
+   
 }
